@@ -1,0 +1,326 @@
+{
+	"querer": {
+		"regular": false,
+		"preterito perfeito simples": {
+			"regular": false,
+			"conjugation": {
+				"quis": [1, 0],
+				"quiseste": [2, 0],
+				"quis ": [3, 0],
+				"quisemos": [4,0],
+				"quiseram": [5, 0]
+			}
+		},
+		"preterito imperfeito": {
+			"regular": false,
+			"conjugation": {
+				"queria": [1, 0],
+				"querias": [2, 0],
+				"queria ": [3, 0],
+				"queriamos": [4, 0],
+				"queriam": [5, 0]
+			}
+		},
+		"presente": {
+			"regular": false,
+			"conjugation": {
+				"quero": [1, 0],
+				"queres": [2, 0],
+				"quer": [3, 0],
+				"queremos": [4, 0],
+				"querem": [5, 0]
+			}
+        },
+        "futuro presente do indicativo": {
+            "regular": true
+        }
+	},
+	"poder": {
+		"regular": false,
+		"preterito perfeito simples": {
+			"regular": false,
+			"conjugation": {
+				"pude":[1, 0],
+				"pudeste":[2, 0],
+				"pôde":[3, 0],
+				"pudemos":[4, 0],
+				"puderam":[5, 0]
+			}
+		},
+		"preterito imperfeito": {
+			"regular": false,
+			"conjugation": {
+				"podia":[1, 0],
+				"podias":[2, 0],
+				"podia ":[3, 0],
+				"podiamos":[4, 0],
+				"podiam":[5, 0]
+			}
+		},
+		"presente": {
+			"regular": false,
+			"conjugation": {
+				"posso":[1,0],
+				"podes":[2,0],
+				"pode":[3,0],
+				"podemos":[4,0],
+				"podem":[5,0]
+			}
+		},
+        "futuro presente do indicativo": {
+            "regular": true
+        }
+	},
+	"dormir": {
+		"regular": false,
+		"preterito perfeito simples": {
+			"regular": true
+		},
+		"preterito imperfeito": {
+			"regular": true
+		},
+		"presente": {
+			"regular": false,
+			"conjugation": {
+				"durmo":[1,0],
+				"dormes":[2,0],
+				"dorme":[3,0],
+				"dormimos":[4,0],
+				"dormem":[5,0]
+			}
+		},
+        "futuro presente do indicativo": {
+            "regular": true
+        }
+	},
+	"ser": {
+		"regular": false,
+		"preterito perfeito simples": {
+			"regular": false,
+			"conjugation": {
+				"fui": [1, 0],
+				"foste": [2, 0],
+				"foi" : [3, 0],
+				"fomos": [4,0],
+				"foram": [5, 0]
+			}
+		},
+		"preterito imperfeito": {
+			"regular": false,
+			"conjugation": {
+				"era": [1, 0],
+				"eras": [2, 0],
+				"era ": [3, 0],
+				"éramos": [4, 0],
+				"eram": [5, 0]
+			}
+		},
+		"presente": {
+			"regular": false,
+			"conjugation": {
+				"sou": [1, 0],
+				"és": [2, 0],
+				"é": [3, 0],
+				"somos": [4,0],
+				"são": [5, 0]
+			}
+        },
+        "futuro presente do indicativo": {
+            "regular": true
+        }
+	},
+	"estar": {
+		"regular": false,
+		"preterito perfeito simples": {
+			"regular": false,
+			"conjugation": {
+				"estive": [1, 0],
+				"estiveste": [2, 0],
+				"esteve" : [3, 0],
+				"estivemos": [4,0],
+				"estiveram": [5, 0]
+			}
+		},
+		"preterito imperfeito": {
+			"regular": true
+		},
+		"presente": {
+			"regular": false,
+			"conjugation": {
+				"estou": [1, 0],
+				"estás": [2, 0],
+				"está": [3, 0],
+				"estamos": [4,0],
+				"estão": [5, 0]
+			}
+        },
+        "futuro presente do indicativo": {
+            "regular": true
+        }
+	},
+    "por": {
+		"regular": false,
+		"preterito perfeito simples": {
+			"regular": false,
+			"conjugation": {
+				"pus": [1, 0],
+				"puseste": [2, 0],
+				"pôs" : [3, 0],
+				"pusemos": [4,0],
+				"puseram": [5, 0]
+			}
+		},
+		"preterito imperfeito": {
+			"regular": false,
+			"conjugation": {
+				"punha": [1, 0],
+				"punhas": [2, 0],
+				"punha ": [3, 0],
+				"púnhamos": [4, 0],
+				"punham": [5, 0]
+			}
+		},
+		"presente": {
+			"regular": false,
+			"conjugation": {
+				"ponho": [1, 0],
+				"pões": [2, 0],
+				"põe": [3, 0],
+				"pomos": [4,0],
+				"põem": [5, 0]
+			}
+        },
+        "futuro presente do indicativo": {
+            "regular": true
+        }
+	},
+    "ver": {
+		"regular": false,
+		"preterito perfeito simples": {
+			"regular": false,
+			"conjugation": {
+				"vi": [1, 0],
+				"viste": [2, 0],
+				"viu" : [3, 0],
+				"vimos": [4,0],
+				"viram": [5, 0]
+			}
+		},
+		"preterito imperfeito": {
+			"regular": true
+		},
+		"presente": {
+			"regular": false,
+			"conjugation": {
+				"vejo": [1, 0],
+				"vês": [2, 0],
+				"vê": [3, 0],
+				"vemos": [4,0],
+				"veem": [5, 0]
+			}
+        },
+        "futuro presente do indicativo": {
+            "regular": true
+        }
+	},
+    "subir": {
+		"regular": false,
+		"preterito perfeito simples": {
+			"regular": true
+		},
+		"preterito imperfeito": {
+			"regular": true
+		},
+		"presente": {
+			"regular": false,
+			"conjugation": {
+				"subo": [1, 0],
+				"sobes": [2, 0],
+				"sobe": [3, 0],
+				"subimos": [4,0],
+				"sobem": [5, 0]
+			}
+        },
+        "futuro presente do indicativo": {
+            "regular": true
+        }
+	},
+    "sorrir": {
+		"regular": false,
+		"preterito perfeito simples": {
+			"regular": true
+		},
+		"preterito imperfeito": {
+			"regular": true
+		},
+		"presente": {
+			"regular": false,
+			"conjugation": {
+				"sorrio": [1, 0],
+				"sorris": [2, 0],
+				"sorri": [3, 0],
+				"sorrimos": [4,0],
+				"sorriem": [5, 0]
+			}
+        },
+        "futuro presente do indicativo": {
+            "regular": true
+        }
+	},
+    "sentir": {
+		"regular": false,
+		"preterito perfeito simples": {
+			"regular": true
+		},
+		"preterito imperfeito": {
+			"regular": true
+		},
+		"presente": {
+			"regular": false,
+			"conjugation": {
+				"sinto": [1, 0],
+				"sentes": [2, 0],
+				"sente": [3, 0],
+				"sentimos": [4,0],
+				"sentem": [5, 0]
+			}
+        },
+        "futuro presente do indicativo": {
+            "regular": true
+        }
+	},
+	"trabalhar": {
+		"regular": true
+	},
+	"cozinhar": {
+		"regular": true
+	},
+	"escrever": {
+		"regular": true
+	},
+	"chegar": {
+		"regular": true
+	},
+	"gostar": {
+		"regular": true
+	},
+	"beber": {
+		"regular": true
+	},
+	"correr": {
+		"regular": true
+	},
+	"brincar": {
+		"regular": true
+	},
+	"abrir": {
+		"regular": true
+	},
+	"viver": {
+		"regular": true
+	},
+	"comprar": {
+		"regular": true
+	}
+
+}
