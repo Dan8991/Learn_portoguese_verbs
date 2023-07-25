@@ -21,22 +21,31 @@ conjugate = {
     "preterito imperfeito": preterito_imperfeito,
     "futuro presente do indicativo": futuro_presente_do_indicativo
 }
+pessoas = ["eu", "tu", "ele", "nós", "eles"]
 
+weights, comb = [], []
+for verb in verbs:
+    for tense in verbs[verb]:
+        if tense != "regular" and not verbs[verb][tense]["regular"]:
+            weights.extend([w for _, (_, w) in verbs[verb][tense]["conjugation"].items()])
+            comb.extend([[verb, tense, conj_verb, p] for conj_verb, (p, _) in verbs[verb][tense]["conjugation"].items()])
 
 for i in range(n_trials):
 
-    is_regular = random.choice(weight_regular * [True] + weight_irregular * [False])
-    verbs_set = regular_verbs if is_regular else irregular_verbs
+    regularity = random.choice(["regular", "irregular", "only_irregular", "only_irregular"])
+    regularity = "only_irregular"
+    verbs_set = regular_verbs if regularity == "regular" else irregular_verbs
 
     verb = random.choice(verbs_set)
     tense = tenses[random.randint(0, len(tenses) - 1)]
     ind = random.randint(0, 4)
 
     print("---------------------------")
-    if is_regular:
+    person = None
+    if regularity == "regular":
         conjugated = conjugate[tense](verb, ind + 1)
         print(f"Verbo: {verb} \nTempo: {tense} \npersona: {ind+1}")
-    else:
+    elif regularity == "irregular":
         if verbs[verb][tense]["regular"]:
             conjugated = conjugate[tense](verb, ind + 1) 
             print(f"Verbo: {verb} \nTempo: {tense} \npersona: {ind+1}")
@@ -44,13 +53,23 @@ for i in range(n_trials):
             conjugated = list(verbs[verb][tense]["conjugation"].keys())[ind]
             person = verbs[verb][tense]["conjugation"][conjugated][0]
             print(f"Verbo: {verb} \nTempo: {tense} \npersona: {person}")
+    else:
+        sample_from = ([[c] * (w + 1) for c, w in zip(comb, weights)])
+        verb, tense, conjugated, person = random.choice(sample_from)[0]
+        print(f"Verbo: {verb} \nTempo: {tense} \npersona: {person}")
     print("---------------------------")
 
     print()
-    input()
-    print(conjugated)
+    input(pessoas[person - 1 if person is not None else ind] + " ")
+    print(pessoas[person - 1 if person is not None else ind] + " " + conjugated)
     print()
-    sleep(2)
+    print("Did you get it right? (y/n)")
+    ans = input()
+    if ans == "n" and not verbs[verb]["regular"] and not verbs[verb][tense]["regular"]:
+        verbs[verb][tense]["conjugation"][conjugated][1] += 1
+        with open("verbs.json", "w") as f:
+            json.dump(verbs, f, indent=4)
+
     
 
 
