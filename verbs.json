@@ -35,6 +35,42 @@
             "regular": true
         }
 	},
+	"vir": {
+		"regular": false,
+		"preterito perfeito simples": {
+			"regular": false,
+			"conjugation": {
+				"vim": [1, 0],
+				"vieste": [2, 0],
+				"veio ": [3, 0],
+				"viemos": [4,0],
+				"vieram": [5, 0]
+			}
+		},
+		"preterito imperfeito": {
+			"regular": false,
+			"conjugation": {
+				"vinha": [1, 0],
+				"vinhas": [2, 0],
+				"vinha ": [3, 0],
+				"vinhamos": [4, 0],
+				"vinham": [5, 0]
+			}
+		},
+		"presente": {
+			"regular": false,
+			"conjugation": {
+				"venho": [1, 0],
+				"vens": [2, 0],
+				"vem": [3, 0],
+				"vimos": [4, 0],
+				"vêm": [5, 0]
+			}
+        },
+        "futuro presente do indicativo": {
+            "regular": true
+        }
+	},
 	"poder": {
 		"regular": false,
 		"preterito perfeito simples": {
