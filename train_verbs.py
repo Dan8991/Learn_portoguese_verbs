@@ -69,6 +69,12 @@ for i in range(n_trials):
         verbs[verb][tense]["conjugation"][conjugated][1] += 1
         with open("verbs.json", "w") as f:
             json.dump(verbs, f, indent=4)
+    elif ans == "y" and not verbs[verb]["regular"] and not verbs[verb][tense]["regular"]:
+        if verbs[verb][tense]["conjugation"][conjugated][1] > 0:
+            verbs[verb][tense]["conjugation"][conjugated][1] -= 1
+            with open("verbs.json", "w") as f:
+                json.dump(verbs, f, indent=4)
+
 
     
 
