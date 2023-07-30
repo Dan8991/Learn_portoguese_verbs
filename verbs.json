@@ -1,4 +1,33 @@
 {
+	"saber": {
+		"regular": false,
+		"preterito perfeito simples": {
+			"regular": false,
+			"conjugation": {
+				"soube": [1, 0],
+				"soubeste": [2, 0],
+				"soube ": [3, 0],
+				"soubemos": [4,0],
+				"souberam": [5, 0]
+			}
+		},
+		"preterito imperfeito": {
+			"regular": true
+		},
+		"presente": {
+			"regular": false,
+			"conjugation": {
+				"sei": [1, 0],
+				"sabes": [2, 0],
+				"sabe": [3, 0],
+				"sameos": [4, 0],
+				"sabem": [5, 0]
+			}
+        },
+        "futuro presente do indicativo": {
+            "regular": true
+        }
+	},
 	"querer": {
 		"regular": false,
 		"preterito perfeito simples": {
