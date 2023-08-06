@@ -33,7 +33,6 @@ for verb in verbs:
 for i in range(n_trials):
 
     regularity = random.choice(["regular", "irregular", "only_irregular", "only_irregular"])
-    regularity = "only_irregular"
     verbs_set = regular_verbs if regularity == "regular" else irregular_verbs
 
     verb = random.choice(verbs_set)
