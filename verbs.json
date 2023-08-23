@@ -1,4 +1,166 @@
 {
+    "cair": {
+        "regular": false,
+        "preterito perfeito simples": {
+            "regular": false,
+            "conjugation": {
+                "caí": [
+                    1,
+                    0
+                ],
+                "caíste": [
+                    2,
+                    0
+                ],
+                "caiu": [
+                    3,
+                    0
+                ],
+                "caímos": [
+                    4,
+                    0
+                ],
+                "caíram": [
+                    5,
+                    0
+                ]
+            }
+        },
+        "preterito imperfeito": {
+            "regular": false,
+            "conjugation": {
+                "caía": [
+                    1,
+                    0
+                ],
+                "caías": [
+                    2,
+                    0
+                ],
+                "caía ": [
+                    3,
+                    0
+                ],
+                "caíamos": [
+                    4,
+                    1
+                ],
+                "caíam": [
+                    5,
+                    0
+                ]
+            }
+        },
+        "presente": {
+            "regular": false,
+            "conjugation": {
+                "caio": [
+                    1,
+                    0
+                ],
+                "cais": [
+                    2,
+                    0
+                ],
+                "cai": [
+                    3,
+                    0
+                ],
+                "caímos": [
+                    4,
+                    0
+                ],
+                "caem": [
+                    5,
+                    0
+                ]
+            }
+        },
+        "futuro presente do indicativo": {
+            "regular": true
+        }
+    },
+    "sair": {
+        "regular": false,
+        "preterito perfeito simples": {
+            "regular": false,
+            "conjugation": {
+                "saí": [
+                    1,
+                    0
+                ],
+                "saíste": [
+                    2,
+                    0
+                ],
+                "saiu": [
+                    3,
+                    0
+                ],
+                "saímos": [
+                    4,
+                    0
+                ],
+                "saíram": [
+                    5,
+                    0
+                ]
+            }
+        },
+        "preterito imperfeito": {
+            "regular": false,
+            "conjugation": {
+                "saía": [
+                    1,
+                    0
+                ],
+                "saías": [
+                    2,
+                    0
+                ],
+                "saía ": [
+                    3,
+                    0
+                ],
+                "saíamos": [
+                    4,
+                    1
+                ],
+                "saíam": [
+                    5,
+                    0
+                ]
+            }
+        },
+        "presente": {
+            "regular": false,
+            "conjugation": {
+                "saio": [
+                    1,
+                    0
+                ],
+                "sais": [
+                    2,
+                    0
+                ],
+                "sai": [
+                    3,
+                    0
+                ],
+                "saímos": [
+                    4,
+                    0
+                ],
+                "saem": [
+                    5,
+                    0
+                ]
+            }
+        },
+        "futuro presente do indicativo": {
+            "regular": true
+        }
+    },    
     "dizer": {
         "regular": false,
         "preterito perfeito simples": {
